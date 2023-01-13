@@ -34,6 +34,12 @@ h2 {
 .profile-picture {
 	border-radius: 5%;
 	margin-top: 20px;
+	size-adjust: 100%;
+
+	padding: 0;
+    	display: block;
+    	max-height: 100%;
+    	max-width: 100%;
 }
 
 .social {
