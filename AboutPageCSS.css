@@ -96,8 +96,9 @@ h2 {
 
 .title {
 	margin-bottom: 85px;
+	padding: 0px;
+	display: flex;
 }
-
 
 
 body {
