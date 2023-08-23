@@ -8,12 +8,34 @@ html, body {
 
 	font-family: 'Open Sans', sans-serif;
 }
+
+.announcement {
+	border: 1px solid black; 
+    text-align: center; /* Center the content horizontally */
+    background-color: lightgray; /* Add a background color for better visibility */
+    font-size: 14px;
+	padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+	border-radius: 10px;
+}
+
+.spacer {
+	margin-bottom: 50px;
+}
+
+
 .navBar {
+	border: 1px solid black; 
+    /* display: flex; Optional: Use flex display to align items horizontally */
+    justify-content: space-around;
+	border-radius: 10px;
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	/* font-family: 'Roboto', sans-serif; */
 	color: black;
+	width: 65px;
+	
 }
 
 h2 {
@@ -33,12 +55,11 @@ h2 {
 
 .profile-picture {
 	border-radius: 5%;
-	margin-top: 20px;
 	size-adjust: 100%;
 	padding: 0;
-    	display: block;
-    	max-height: 100%;
-    	max-width: 100%; 
+	display: block;
+	max-height: 100%;
+	max-width: 100%; 
 
 }
 
