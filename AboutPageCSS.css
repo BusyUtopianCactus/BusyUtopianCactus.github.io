@@ -14,7 +14,7 @@ html, body {
     text-align: center; /* Center the content horizontally */
     background-color: lightgray; /* Add a background color for better visibility */
     font-size: 14px;
-	padding: 10px;
+	padding: 15px;
     font-family: 'Open Sans', sans-serif;
 	border-radius: 10px;
 }
@@ -30,7 +30,7 @@ html, body {
     justify-content: space-around;
 	border-radius: 10px;
 	list-style-type: none;
-	margin: 0;
+	margin: 20px;
 	padding: 20px;
 	/* font-family: 'Roboto', sans-serif; */
 	color: black;
@@ -84,26 +84,27 @@ h2 {
 
 .right {
 	
-	margin: 5px;
-	max-width: 50%;
+	margin: 20px;
+	/* max-width: 50%; */
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 .navBar {
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 .left {
-	margin: 5px;
-	max-width: 50%;
+	margin: 20x;
+	/* max-width: 50%; */
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-bottom: 0px;
 }
 
 .left {
